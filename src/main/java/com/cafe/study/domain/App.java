@@ -9,14 +9,14 @@ import java.util.Collections;
  */
 public class App 
 {
-	 private static List<String> getUser(int l ) {
-	    	return Collections.EMPTY_LIST;
+	 private static List getUser(int l ) {
+	    	return (List) Collections.EMPTY_LIST;
 		}
     public static void main( String[] args )
     {
     	
     	int l=1;
-    	List<String> list=getUser(l);
+    	List list=getUser(l);
         System.out.println( "Hello World!" );
     }
     
